@@ -72,7 +72,7 @@ for ($i = 0; $i < $file->getNumBlocks(); ++$i) {
 
 				++$words;
 			} else {
-				echo "only " . ($cur_frames_word / $file->getSampleRate()) . " seconds word at " . ($tell / file->getSampleRate()) . "\n";
+				echo "only " . ($cur_frames_word / $file->getSampleRate()) . " seconds word at " . ($tell / $file->getSampleRate()) . "\n";
 			}
 
 			$cur_frames_word = 0;
